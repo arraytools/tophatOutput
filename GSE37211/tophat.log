@@ -1,0 +1,43 @@
+
+[2014-07-17 14:01:32] Beginning TopHat run (v2.0.11)
+-----------------------------------------------
+[2014-07-17 14:01:32] Checking for Bowtie
+		  Bowtie version:	 2.2.1.0
+[2014-07-17 14:01:32] Checking for Samtools
+		Samtools version:	 0.1.19.0
+[2014-07-17 14:01:32] Checking for Bowtie index files (genome)..
+[2014-07-17 14:01:32] Checking for reference FASTA file
+	Warning: Could not find FASTA file genome.fa
+[2014-07-17 14:01:32] Reconstituting reference FASTA file from Bowtie index
+  Executing: /opt/RNA-Seq/bin/bowtie2-2.2.1/bowtie2-inspect genome > OHT48h/tmp/genome.fa
+[2014-07-17 14:03:29] Generating SAM header for genome
+[2014-07-17 14:03:42] Preparing reads
+	 left reads: min. length=101, max. length=101, 20714985 kept reads (777 discarded)
+	right reads: min. length=101, max. length=101, 20701110 kept reads (14652 discarded)
+[2014-07-17 14:13:49] Mapping left_kept_reads to genome genome with Bowtie2 
+[2014-07-17 14:44:41] Mapping left_kept_reads_seg1 to genome genome with Bowtie2 (1/4)
+[2014-07-17 14:49:34] Mapping left_kept_reads_seg2 to genome genome with Bowtie2 (2/4)
+[2014-07-17 14:54:34] Mapping left_kept_reads_seg3 to genome genome with Bowtie2 (3/4)
+[2014-07-17 14:59:38] Mapping left_kept_reads_seg4 to genome genome with Bowtie2 (4/4)
+[2014-07-17 15:06:25] Mapping right_kept_reads to genome genome with Bowtie2 
+[2014-07-17 15:35:41] Mapping right_kept_reads_seg1 to genome genome with Bowtie2 (1/4)
+[2014-07-17 15:40:45] Mapping right_kept_reads_seg2 to genome genome with Bowtie2 (2/4)
+[2014-07-17 15:45:57] Mapping right_kept_reads_seg3 to genome genome with Bowtie2 (3/4)
+[2014-07-17 15:51:30] Mapping right_kept_reads_seg4 to genome genome with Bowtie2 (4/4)
+[2014-07-17 15:58:30] Searching for junctions via segment mapping
+[2014-07-17 16:08:06] Retrieving sequences for splices
+[2014-07-17 16:10:00] Indexing splices
+[2014-07-17 16:10:42] Mapping left_kept_reads_seg1 to genome segment_juncs with Bowtie2 (1/4)
+[2014-07-17 16:12:41] Mapping left_kept_reads_seg2 to genome segment_juncs with Bowtie2 (2/4)
+[2014-07-17 16:14:40] Mapping left_kept_reads_seg3 to genome segment_juncs with Bowtie2 (3/4)
+[2014-07-17 16:16:05] Mapping left_kept_reads_seg4 to genome segment_juncs with Bowtie2 (4/4)
+[2014-07-17 16:18:00] Joining segment hits
+[2014-07-17 16:21:35] Mapping right_kept_reads_seg1 to genome segment_juncs with Bowtie2 (1/4)
+[2014-07-17 16:23:11] Mapping right_kept_reads_seg2 to genome segment_juncs with Bowtie2 (2/4)
+[2014-07-17 16:24:39] Mapping right_kept_reads_seg3 to genome segment_juncs with Bowtie2 (3/4)
+[2014-07-17 16:26:04] Mapping right_kept_reads_seg4 to genome segment_juncs with Bowtie2 (4/4)
+[2014-07-17 16:28:00] Joining segment hits
+[2014-07-17 16:31:35] Reporting output tracks
+-----------------------------------------------
+[2014-07-17 16:48:43] A summary of the alignment counts can be found in OHT48h/align_summary.txt
+[2014-07-17 16:48:43] Run complete: 02:47:10 elapsed
