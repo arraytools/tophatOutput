@@ -1,0 +1,35 @@
+
+[2014-07-10 16:36:53] Beginning TopHat run (v2.0.11)
+-----------------------------------------------
+[2014-07-10 16:36:53] Checking for Bowtie
+		  Bowtie version:	 2.2.1.0
+[2014-07-10 16:36:54] Checking for Samtools
+		Samtools version:	 0.1.19.0
+[2014-07-10 16:36:54] Checking for Bowtie index files (genome)..
+[2014-07-10 16:36:54] Checking for reference FASTA file
+	Warning: Could not find FASTA file genome.fa
+[2014-07-10 16:36:54] Reconstituting reference FASTA file from Bowtie index
+  Executing: /opt/RNA-Seq/bin/bowtie2-2.2.1/bowtie2-inspect genome > TNBC1/tmp/genome.fa
+[2014-07-10 16:38:49] Generating SAM header for genome
+[2014-07-10 16:39:02] Preparing reads
+	 left reads: min. length=60, max. length=60, 44338793 kept reads (95929 discarded)
+	right reads: min. length=60, max. length=60, 44098248 kept reads (336474 discarded)
+[2014-07-10 16:53:54] Mapping left_kept_reads to genome genome with Bowtie2 
+[2014-07-10 18:38:12] Mapping left_kept_reads_seg1 to genome genome with Bowtie2 (1/2)
+[2014-07-10 18:48:46] Mapping left_kept_reads_seg2 to genome genome with Bowtie2 (2/2)
+[2014-07-10 19:25:21] Mapping right_kept_reads to genome genome with Bowtie2 
+[2014-07-10 21:11:02] Mapping right_kept_reads_seg1 to genome genome with Bowtie2 (1/2)
+[2014-07-10 21:22:37] Mapping right_kept_reads_seg2 to genome genome with Bowtie2 (2/2)
+[2014-07-10 22:07:11] Searching for junctions via segment mapping
+[2014-07-10 22:16:56] Retrieving sequences for splices
+[2014-07-10 22:18:29] Indexing splices
+[2014-07-10 22:18:58] Mapping left_kept_reads_seg1 to genome segment_juncs with Bowtie2 (1/2)
+[2014-07-10 22:21:34] Mapping left_kept_reads_seg2 to genome segment_juncs with Bowtie2 (2/2)
+[2014-07-10 22:27:44] Joining segment hits
+[2014-07-10 22:31:35] Mapping right_kept_reads_seg1 to genome segment_juncs with Bowtie2 (1/2)
+[2014-07-10 22:34:18] Mapping right_kept_reads_seg2 to genome segment_juncs with Bowtie2 (2/2)
+[2014-07-10 22:41:16] Joining segment hits
+[2014-07-10 22:45:16] Reporting output tracks
+-----------------------------------------------
+[2014-07-10 23:28:24] A summary of the alignment counts can be found in TNBC1/align_summary.txt
+[2014-07-10 23:28:24] Run complete: 06:51:31 elapsed
