@@ -1,0 +1,22 @@
+
+[2014-11-14 09:29:32] Beginning TopHat run (v2.0.11)
+-----------------------------------------------
+[2014-11-14 09:29:32] Checking for Bowtie
+		  Bowtie version:	 2.2.1.0
+[2014-11-14 09:29:32] Checking for Samtools
+		Samtools version:	 0.1.19.0
+[2014-11-14 09:29:32] Checking for Bowtie index files (genome)..
+[2014-11-14 09:29:32] Checking for reference FASTA file
+[2014-11-14 09:29:32] Generating SAM header for /home/brb/igenome/yeast/EnsemblEF4//genome
+[2014-11-14 09:29:32] Preparing reads
+	 left reads: min. length=33, max. length=33, 3759097 kept reads (95594 discarded)
+Warning: you have only one segment per read.
+	If the read length is greater than or equal to 45bp,
+	we strongly recommend that you decrease --segment-length to about half the read length because TopHat will work better with multiple segments
+[2014-11-14 09:29:54] Mapping left_kept_reads to genome genome with Bowtie2 
+[2014-11-14 09:30:32] Searching for junctions via segment mapping
+Warning: junction database is empty!
+[2014-11-14 09:30:33] Reporting output tracks
+-----------------------------------------------
+[2014-11-14 09:31:05] A summary of the alignment counts can be found in dT_ori/align_summary.txt
+[2014-11-14 09:31:05] Run complete: 00:01:33 elapsed
