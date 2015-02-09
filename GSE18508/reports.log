@@ -1,0 +1,24 @@
+tophat_reports v2.0.9 (3067M)
+---------------------------------------
+[samopen] SAM header is present: 15 sequences.
+	Loading 2L...done
+	Loading 2LHet...done
+	Loading 2R...done
+	Loading 2RHet...done
+	Loading 3L...done
+	Loading 3LHet...done
+	Loading 3R...done
+	Loading 3RHet...done
+	Loading 4...done
+	Loading U...done
+	Loading Uextra...done
+	Loading X...done
+	Loading XHet...done
+	Loading YHet...done
+	Loading dmel_mitochondrion_genome...done
+	Loading ...done
+Loaded 0 junctions
+Printing junction BED track...done
+Printing insertions...done
+Printing deletions...done
+Found 0 junctions from happy spliced reads

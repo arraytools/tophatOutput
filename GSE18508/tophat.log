@@ -1,0 +1,24 @@
+
+[2014-07-31 10:32:51] Beginning TopHat run (v2.0.11)
+-----------------------------------------------
+[2014-07-31 10:32:51] Checking for Bowtie
+		  Bowtie version:	 2.2.1.0
+[2014-07-31 10:32:52] Checking for Samtools
+		Samtools version:	 0.1.19.0
+[2014-07-31 10:32:52] Checking for Bowtie index files (genome)..
+[2014-07-31 10:32:52] Checking for reference FASTA file
+	Warning: Could not find FASTA file Dme1_BDGP5_70.fa
+[2014-07-31 10:32:52] Reconstituting reference FASTA file from Bowtie index
+  Executing: /opt/RNA-Seq/bin/bowtie2-2.2.1/bowtie2-inspect Dme1_BDGP5_70 > Untreated-4/tmp/Dme1_BDGP5_70.fa
+[2014-07-31 10:32:58] Generating SAM header for Dme1_BDGP5_70
+[2014-07-31 10:32:59] Preparing reads
+	 left reads: min. length=37, max. length=37, 12205959 kept reads (24143 discarded)
+	right reads: min. length=37, max. length=37, 12166707 kept reads (63395 discarded)
+Warning: you have only one segment per read.
+	If the read length is greater than or equal to 45bp,
+	we strongly recommend that you decrease --segment-length to about half the read length because TopHat will work better with multiple segments
+[2014-07-31 10:35:45] Mapping left_kept_reads to genome Dme1_BDGP5_70 with Bowtie2 
+[2014-07-31 10:38:37] Mapping right_kept_reads to genome Dme1_BDGP5_70 with Bowtie2 
+[2014-07-31 10:41:30] Searching for junctions via segment mapping
+Warning: junction database is empty!
+[2014-07-31 10:41:34] Reporting output tracks
