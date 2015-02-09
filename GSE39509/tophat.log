@@ -1,0 +1,32 @@
+
+[2014-07-21 10:12:02] Beginning TopHat run (v2.0.11)
+-----------------------------------------------
+[2014-07-21 10:12:02] Checking for Bowtie
+		  Bowtie version:	 2.2.1.0
+[2014-07-21 10:12:02] Checking for Samtools
+		Samtools version:	 0.1.19.0
+[2014-07-21 10:12:02] Checking for Bowtie index files (genome)..
+[2014-07-21 10:12:02] Checking for reference FASTA file
+	Warning: Could not find FASTA file genome.fa
+[2014-07-21 10:12:02] Reconstituting reference FASTA file from Bowtie index
+  Executing: /opt/RNA-Seq/bin/bowtie2-2.2.1/bowtie2-inspect genome > L3MT6/tmp/genome.fa
+[2014-07-21 10:13:40] Generating SAM header for genome
+[2014-07-21 10:13:55] Preparing reads
+	 left reads: min. length=101, max. length=101, 19807004 kept reads (0 discarded)
+[2014-07-21 10:17:56] Mapping left_kept_reads to genome genome with Bowtie2 
+[2014-07-21 10:37:36] Mapping left_kept_reads_seg1 to genome genome with Bowtie2 (1/4)
+[2014-07-21 10:40:14] Mapping left_kept_reads_seg2 to genome genome with Bowtie2 (2/4)
+[2014-07-21 10:42:21] Mapping left_kept_reads_seg3 to genome genome with Bowtie2 (3/4)
+[2014-07-21 10:44:18] Mapping left_kept_reads_seg4 to genome genome with Bowtie2 (4/4)
+[2014-07-21 10:47:22] Searching for junctions via segment mapping
+[2014-07-21 10:53:02] Retrieving sequences for splices
+[2014-07-21 10:54:20] Indexing splices
+[2014-07-21 10:54:38] Mapping left_kept_reads_seg1 to genome segment_juncs with Bowtie2 (1/4)
+[2014-07-21 10:55:22] Mapping left_kept_reads_seg2 to genome segment_juncs with Bowtie2 (2/4)
+[2014-07-21 10:56:00] Mapping left_kept_reads_seg3 to genome segment_juncs with Bowtie2 (3/4)
+[2014-07-21 10:56:40] Mapping left_kept_reads_seg4 to genome segment_juncs with Bowtie2 (4/4)
+[2014-07-21 10:57:32] Joining segment hits
+[2014-07-21 11:00:13] Reporting output tracks
+-----------------------------------------------
+[2014-07-21 11:07:49] A summary of the alignment counts can be found in L3MT6/align_summary.txt
+[2014-07-21 11:07:49] Run complete: 00:55:46 elapsed
