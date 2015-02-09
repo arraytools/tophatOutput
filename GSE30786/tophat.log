@@ -1,0 +1,25 @@
+
+[2014-08-21 16:07:09] Beginning TopHat run (v2.0.11)
+-----------------------------------------------
+[2014-08-21 16:07:09] Checking for Bowtie
+		  Bowtie version:	 2.2.1.0
+[2014-08-21 16:07:10] Checking for Samtools
+		Samtools version:	 0.1.19.0
+[2014-08-21 16:07:10] Checking for Bowtie index files (genome)..
+[2014-08-21 16:07:10] Checking for reference FASTA file
+	Warning: Could not find FASTA file genome.fa
+[2014-08-21 16:07:10] Reconstituting reference FASTA file from Bowtie index
+  Executing: /opt/RNA-Seq/bin/bowtie2-2.2.1/bowtie2-inspect genome > Starved_1/tmp/genome.fa
+[2014-08-21 16:09:02] Generating SAM header for genome
+[2014-08-21 16:09:19] Preparing reads
+	 left reads: min. length=40, max. length=40, 36814439 kept reads (16915 discarded)
+Warning: you have only one segment per read.
+	If the read length is greater than or equal to 45bp,
+	we strongly recommend that you decrease --segment-length to about half the read length because TopHat will work better with multiple segments
+[2014-08-21 16:14:09] Mapping left_kept_reads to genome genome with Bowtie2 
+[2014-08-21 16:28:07] Searching for junctions via segment mapping
+Warning: junction database is empty!
+[2014-08-21 16:29:30] Reporting output tracks
+-----------------------------------------------
+[2014-08-21 16:41:55] A summary of the alignment counts can be found in Starved_1/align_summary.txt
+[2014-08-21 16:41:56] Run complete: 00:34:46 elapsed
