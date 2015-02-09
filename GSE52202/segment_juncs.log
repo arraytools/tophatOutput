@@ -1,0 +1,74 @@
+segment_juncs v2.0.9 (3067M)
+---------------------------
+[samopen] SAM header is present: 25 sequences.
+Loading reference sequences...
+	Loading 10...done
+	Loading 11...done
+	Loading 12...done
+	Loading 13...done
+	Loading 14...done
+	Loading 15...done
+	Loading 16...done
+	Loading 17...done
+	Loading 18...done
+	Loading 19...done
+	Loading 1...done
+	Loading 20...done
+	Loading 21...done
+	Loading 22...done
+	Loading 2...done
+	Loading 3...done
+	Loading 4...done
+	Loading 5...done
+	Loading 6...done
+	Loading 7...done
+	Loading 8...done
+	Loading 9...done
+	Loading MT...done
+	Loading X...done
+	Loading Y...done
+	Loading ...done
+>> Performing segment-search:
+Loading left segment hits...
+done.
+	found 132268 potential split-segment junctions
+	found 0 potential small deletions
+	found 0 potential small insertions
+>> Performing coverage-search:
+ Map covers 79924797 bases
+ Map covers 77392185 bases in sufficiently long segments
+ Map contains 2521482 good islands
+ 124205346 are left looking bases
+ 124201015 are right looking bases
+Collecting potential splice sites in islands
+reporting synthetic splice junctions...
+Examining donor-acceptor pairings in 1
+Examining donor-acceptor pairings in 10
+Examining donor-acceptor pairings in 11
+Examining donor-acceptor pairings in 12
+Examining donor-acceptor pairings in 13
+Examining donor-acceptor pairings in 14
+Examining donor-acceptor pairings in 15
+Examining donor-acceptor pairings in 16
+Examining donor-acceptor pairings in 17
+Examining donor-acceptor pairings in 18
+Examining donor-acceptor pairings in 19
+Examining donor-acceptor pairings in 2
+Examining donor-acceptor pairings in 20
+Examining donor-acceptor pairings in 21
+Examining donor-acceptor pairings in 22
+Examining donor-acceptor pairings in 3
+Examining donor-acceptor pairings in 4
+Examining donor-acceptor pairings in 5
+Examining donor-acceptor pairings in 6
+Examining donor-acceptor pairings in 7
+Examining donor-acceptor pairings in 8
+Examining donor-acceptor pairings in 9
+Examining donor-acceptor pairings in MT
+Examining donor-acceptor pairings in X
+Examining donor-acceptor pairings in Y
+	found 5000000 potential junctions
+Reported 5070168 total potential splices
+Reporting 0 potential deletions...
+Reporting 0 potential insertions...
+Reporting potential fusions...
