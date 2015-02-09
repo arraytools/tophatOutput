@@ -1,0 +1,25 @@
+
+[2014-10-14 12:30:40] Beginning TopHat run (v2.0.11)
+-----------------------------------------------
+[2014-10-14 12:30:40] Checking for Bowtie
+		  Bowtie version:	 2.2.1.0
+[2014-10-14 12:30:41] Checking for Samtools
+		Samtools version:	 0.1.19.0
+[2014-10-14 12:30:41] Checking for Bowtie index files (genome)..
+[2014-10-14 12:30:41] Checking for reference FASTA file
+[2014-10-14 12:30:41] Generating SAM header for /home/brb/igenome/human/UCSC/hg18/genome
+[2014-10-14 12:31:05] Preparing reads
+	 left reads: min. length=49, max. length=49, 31225788 kept reads (2279 discarded)
+[2014-10-14 12:35:36] Mapping left_kept_reads to genome genome with Bowtie2 
+[2014-10-14 12:55:01] Mapping left_kept_reads_seg1 to genome genome with Bowtie2 (1/2)
+[2014-10-14 12:57:24] Mapping left_kept_reads_seg2 to genome genome with Bowtie2 (2/2)
+[2014-10-14 12:59:30] Searching for junctions via segment mapping
+[2014-10-14 13:01:46] Retrieving sequences for splices
+[2014-10-14 13:03:16] Indexing splices
+[2014-10-14 13:03:23] Mapping left_kept_reads_seg1 to genome segment_juncs with Bowtie2 (1/2)
+[2014-10-14 13:03:58] Mapping left_kept_reads_seg2 to genome segment_juncs with Bowtie2 (2/2)
+[2014-10-14 13:04:24] Joining segment hits
+[2014-10-14 13:06:36] Reporting output tracks
+-----------------------------------------------
+[2014-10-14 13:18:22] A summary of the alignment counts can be found in E2_Rep1/align_summary.txt
+[2014-10-14 13:18:22] Run complete: 00:47:41 elapsed
