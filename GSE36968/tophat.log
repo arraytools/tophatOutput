@@ -1,0 +1,30 @@
+
+[2014-08-06 16:31:02] Beginning TopHat run (v2.0.11)
+-----------------------------------------------
+[2014-08-06 16:31:02] Checking for Bowtie
+		  Bowtie version:	 2.2.1.0
+[2014-08-06 16:31:02] Checking for Samtools
+		Samtools version:	 0.1.19.0
+[2014-08-06 16:31:02] Checking for Bowtie index files (genome)..
+[2014-08-06 16:31:02] Checking for reference FASTA file
+	Warning: Could not find FASTA file /home/brb/igenome/human/genome.fa
+[2014-08-06 16:31:02] Reconstituting reference FASTA file from Bowtie index
+  Executing: /opt/RNA-Seq/bin/bowtie2-2.2.1/bowtie2-inspect /home/brb/igenome/human/genome > Patient30_smRNA-seq/tmp/genome.fa
+[2014-08-06 16:32:54] Generating SAM header for /home/brb/igenome/human/genome
+[2014-08-06 16:33:14] Preparing reads
+	 left reads: min. length=36, max. length=36, 19354498 kept reads (8345 discarded)
+Warning: you have only one segment per read.
+	If the read length is greater than or equal to 45bp,
+	we strongly recommend that you decrease --segment-length to about half the read length because TopHat will work better with multiple segments
+[2014-08-06 16:35:38] Mapping left_kept_reads to genome genome with Bowtie2 
+[2014-08-06 16:37:43] Searching for junctions via segment mapping
+[2014-08-06 16:41:40] Retrieving sequences for splices
+[2014-08-06 16:43:11] Indexing splices
+[2014-08-06 16:43:13] Mapping left_kept_reads_unmapped to genome segment_juncs with Bowtie2 (1/1)
+open: No such file or directory
+Error: bam2fastx failed to open BAM file Patient30_smRNA-seq/tmp/left_kept_reads_unmapped.bam
+[2014-08-06 16:43:13] Joining segment hits
+[2014-08-06 16:45:21] Reporting output tracks
+-----------------------------------------------
+[2014-08-06 16:48:25] A summary of the alignment counts can be found in Patient30_smRNA-seq/align_summary.txt
+[2014-08-06 16:48:25] Run complete: 00:17:23 elapsed
